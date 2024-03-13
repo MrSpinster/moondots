@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+hcl() {
+  git clone gh:"${1}"
+}
