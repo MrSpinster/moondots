@@ -1,3 +1,5 @@
+export EDITOR=nvim
+
 #█▓▒░ Pyenv settings
 export PYENV_ROOT="$HOME/.local/share/pyenv"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1

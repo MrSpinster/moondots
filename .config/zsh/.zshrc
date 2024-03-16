@@ -43,6 +43,8 @@ znap source zdharma-continuum/fast-syntax-highlighting
 
 znap function _pyenv pyenv "znap eval pyenv 'pyenv init - --no-rehash'"
 compctl -K    _pyenv pyenv
+eval "$(pyenv virtualenv-init -)"
+source $HOME/.local/share/pyenv/completions/pyenv.zsh
 
 znap eval zoxide 'zoxide init zsh'
 
