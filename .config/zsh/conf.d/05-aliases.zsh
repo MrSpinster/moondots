@@ -14,6 +14,7 @@ alias dots="dotbare"
 alias fadd="dotbare fadd"
 alias fedit="dotbare fedit"
 alias fstat="dotbare fstat"
+alias dotcom="dotbare commit"
 
 #█▓▒░ Chezmoi aliases
 alias ch="chezmoi"
