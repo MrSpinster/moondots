@@ -1,0 +1,13 @@
+{
+  "Zstyles": {
+    "prefix": ["zst"],
+    "body": ["zstyle ':${1:namespace}:${2:*}' ${3:tag} '${4:string}'"],
+    "description": "Zstyles."
+  },
+
+  "Header Comment": {
+    "prefix": ["hed"],
+    "body": ["#█▓▒░ ${1:heading}\n${0}"],
+    "description": "Custom heading for configuration sections"
+  }
+}
