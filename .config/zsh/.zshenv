@@ -1,3 +1,4 @@
+#█▓▒░ General environment settings
 export EDITOR=nvim
 
 #█▓▒░ Pyenv settings
@@ -14,11 +15,11 @@ export DOTBARE_DIR="$HOME/.config/dotfiles"
 export DOTBARE_BACKUP="${XDG_DATA_HOME:-$HOME/.local/share}/dotbare"
 export DOTBARE_PREVIEW="bat --color=always -n {}"
 export DOTBARE_KEY="
-  --bind=alt-a:toggle-all  
-  --bind=alt-j:jump
-  --bind=alt-0:top
-  --bind=alt-s:toggle-sort
-  --bind=alt-t:toggle-preview
+--bind=alt-a:toggle-all
+--bind=alt-j:jump
+--bind=alt-0:top
+--bind=alt-s:toggle-sort
+--bind=alt-t:toggle-preview
 "
 export DOTBARE_FZF_DEFAULT_OPTS=" \
 --color=bg:#1e1e2e,bg+:#262626,hl:#f38ba8,hl+:#5fd7ff \

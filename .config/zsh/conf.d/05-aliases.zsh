@@ -1,12 +1,18 @@
-# Eza ls aliases
+#█▓▒░ Convenience
+alias exz='exec zsh'
+
+#█▓▒░ Eza ls aliases
 alias ls='eza --icons=always'
 alias la='eza --icons=always --all'
 alias ll='eza --icons=always --long'
 alias lla='eza --icons=always --long --all'
+alias gt='eza --color=always --icons=always -T'
+alias gtt='eza --color=always --icons=always -TL3'
 
 #█▓▒░ Git aliases
 alias gst="git status"
-# Global aliases
+
+#█▓▒░ Global aliases
 alias -g L='| less'
 
 #█▓▒░ Dotbare aliases

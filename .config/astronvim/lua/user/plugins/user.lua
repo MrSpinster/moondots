@@ -2,13 +2,11 @@ return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
-  -- {
-  --   "ray-x/lsp_signature.nvim",
-  --   event = "BufRead",
-  --   config = function()
-  --     require("lsp_signature").setup()
-  --   end,
-  -- },
+  {
+    "ray-x/lsp_signature.nvim",
+    event = "BufRead",
+    config = function() require("lsp_signature").setup() end,
+  },
   -- {
   --   "acksld/swenv",
   --   config = function()
@@ -22,25 +20,6 @@ return {
   --     })
   -- },
 
-  -- {
-  --   "catppuccin/nvim",
-  --   name = "catppuccin",
-  --   priority = 1000,
-  --   conig = function()
-  --     require("catppuccin").setup {
-  --       flavour = "mocha",
-  --       transparent_background = true,
-  --       term_colors = false,
-  --       integrations = {
-  --         cmp = true,
-  --         gitsigns = true,
-  --         nvimtree = true,
-  --       },
-  --     }
-  --   end,
-  -- },
-
-  -- neorg, for note taking
   {
     "nvim-neorg/neorg",
     ft = "norg",
